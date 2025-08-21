@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/         # If using collectstatic locally
+static/              # Optional: only if it's generated
+
+# Environment
+.env
+.env.*               # .env.dev, .env.prod, etc.
+venv/
+venv*/               # Covers venv, venv3, etc.
+.envrc
+.venv/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PDF generation artifacts (just in case)
+*.pdf
+
+# Gunicorn logs / temp files (if configured to write locally)
+gunicorn-access.log
+gunicorn-error.log
+
+# Pip tools
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Migrations (optional – only if you auto-generate and don't want to commit)
+# **Not usually recommended to ignore these**
+# */migrations/*.py
+# */migrations/*.pyc
